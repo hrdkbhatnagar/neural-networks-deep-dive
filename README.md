@@ -6,13 +6,13 @@ The repository contains several small projects, each having their own subfolder:
 
 
 
-### [Micrograd](https://github.com/hrdkbhatnagar/neural-networks-deep-dive/tree/main/micrograd)
+## [Micrograd](https://github.com/hrdkbhatnagar/neural-networks-deep-dive/tree/main/micrograd)
 
 A toy implementation for automatic diffrentiation and backpropagation written from scratch in Python in about 100 lines of code. Inspired from AutoGrad engine in Python, micrograd automatically computes gradients and creates a computational graph of the operations. It is built in a PyTorch-like API fashion. 
 
 ​	
 
-### [Makemore](https://github.com/hrdkbhatnagar/neural-networks-deep-dive/tree/main/makemore)
+## [Makemore](https://github.com/hrdkbhatnagar/neural-networks-deep-dive/tree/main/makemore)
 
 A character level language model for "making more things". It takes one text file as an input and generates more things like that. For example, the `names.txt` dataset contains the most common American names is used as the training dataset. 
 
