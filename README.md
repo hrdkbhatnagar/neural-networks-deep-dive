@@ -4,13 +4,11 @@ This is a repository where I delve deeper into the inner workings of neural netw
 
 The repository contains several small projects, each having their own subfolder:
 
-
-
 ## [Micrograd](https://github.com/hrdkbhatnagar/neural-networks-deep-dive/tree/main/micrograd)
 
 A toy implementation for automatic diffrentiation and backpropagation written from scratch in Python in about 100 lines of code. Inspired from AutoGrad engine in Python, micrograd automatically computes gradients and creates a computational graph of the operations. It is built in a PyTorch-like API fashion. 
 
-​	
+![micrograd_plot](https://raw.githubusercontent.com/hrdkbhatnagar/neural-networks-deep-dive/main/images/micrograd_graph.png?token=GHSAT0AAAAAAB5LO6ZHIIAAWTF2BRU3K3O4ZEN7SKQ)
 
 ## [Makemore](https://github.com/hrdkbhatnagar/neural-networks-deep-dive/tree/main/makemore)
 
@@ -21,12 +19,11 @@ The complexity of makemore starts from a simple bigram model all the way to a Tr
 Currently the following models are implemented into makemore: 
 
 - Bigram - where one character is used to predict the next one based on a lookup table 
-
 - MLP  - based on [Bengio et. al 2003](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf) 
 
-  
+![activation_graph](https://raw.githubusercontent.com/hrdkbhatnagar/neural-networks-deep-dive/main/images/makemore_activations_graph.png?token=GHSAT0AAAAAAB5LO6ZGH7CRFRWZNVLH6226ZEN7SAQ)
 
-
+![update_ratio_graph](https://raw.githubusercontent.com/hrdkbhatnagar/neural-networks-deep-dive/main/images/makemore_update_ratio_graph.png?token=GHSAT0AAAAAAB5LO6ZHRPEQSDXESYP2NQE4ZEN7UAQ)
 
 ## Environment 
 
