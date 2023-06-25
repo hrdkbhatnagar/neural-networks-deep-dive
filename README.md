@@ -52,7 +52,7 @@ A toy implementation for automatic diffrentiation and backpropagation written fr
 
 
 
-![](/Users/hardik/repos/neural-networks-deep-dive/micrograd/graphs/Digraph.gv.svg)
+![](https://raw.githubusercontent.com/hrdkbhatnagar/neural-networks-deep-dive/main/micrograd/graphs/Digraph.gv.svg)
 
 
 
