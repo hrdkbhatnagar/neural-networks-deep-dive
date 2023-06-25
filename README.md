@@ -63,49 +63,45 @@ The complexity of makemore starts from a simple bigram model all the way to a Tr
 Currently the following models are implemented into makemore: 
 
 - Bigram - where one character is used to predict the next one based on a lookup table 
-
 - MLP  - based on [Bengio et. al 2003](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf) 
-
 - Wavenet - based on [Aaron van den Oord et. al 2016](https://arxiv.org/abs/1609.03499)
 
-  
+Given the names look like:
 
-  Given the names look like:
+```
+Emma
+Olivia
+Ava
+Isabella
+Sophia
+Charlotte
+Mia
+Amelia
+Harper
+Evelyn
+```
 
-  ```
-  Emma
-  Olivia
-  Ava
-  Isabella
-  Sophia
-  Charlotte
-  Mia
-  Amelia
-  Harper
-  Evelyn
-  ```
+It currently can generate unique names such as: 
 
-  It currently can generate unique names such as: 
+```
+Tokore
+Yohna
+Nichira
+Hayleigh
+Brakel
+Shyvan
+Luna
+Aleysh
+Kelon
+Luwa
+Archan
+Jennesty
+Brarai
+```
 
-  ```
-  Tokore
-  Yohna
-  Nichira
-  Hayleigh
-  Brakel
-  Shyvan
-  Luna
-  Aleysh
-  Kelon
-  Luwa
-  Archan
-  Jennesty
-  Brarai
-  ```
 
-  
 
-  Along the way, there are several nice explorations done into training deep networks and their working under the hood. 
+Along the way, there are several nice explorations done into training deep networks and their working under the hood. 
 
 ![activation_graph](https://raw.githubusercontent.com/hrdkbhatnagar/neural-networks-deep-dive/main/images/makemore_activations_graph.png?token=GHSAT0AAAAAAB5LO6ZGH7CRFRWZNVLH6226ZEN7SAQ)
 
