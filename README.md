@@ -50,7 +50,9 @@ For the worst break not: to the Capitos.
 
 A toy implementation for automatic diffrentiation and backpropagation written from scratch in Python in about 100 lines of code. Inspired from AutoGrad engine in Python, micrograd automatically computes gradients and creates a computational graph of the operations. It is built in a PyTorch-like API fashion. 
 
-![micrograd_plot](https://raw.githubusercontent.com/hrdkbhatnagar/neural-networks-deep-dive/main/images/micrograd_graph.png?token=GHSAT0AAAAAAB5LO6ZHIIAAWTF2BRU3K3O4ZEN7SKQ)
+
+
+![](/Users/hardik/repos/neural-networks-deep-dive/micrograd/graphs/Digraph.gv.svg)
 
 
 
@@ -66,7 +68,7 @@ Currently the following models are implemented into makemore:
 - MLP  - based on [Bengio et. al 2003](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf) 
 - Wavenet - based on [Aaron van den Oord et. al 2016](https://arxiv.org/abs/1609.03499)
 
-Given the names look like:
+When trained on the names dataset, containing entries like:
 
 ```
 Emma
